@@ -33,7 +33,7 @@ export class Dog extends Animal {
 
 
 const dog1 = new Dog('Boby', 'mike');
-console.log(dog1.greeting);
+console.log(dog1.owner);
 console.log(dog1.woof);
 console.log(dog1.move());
 // no se puede modificar
